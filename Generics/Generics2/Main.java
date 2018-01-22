@@ -32,5 +32,14 @@ public class Main {
 
         adelade.matchResult(ferment,2,1);
 
+        System.out.println("Rankings");
+        System.out.println(adelade.getName()+": "+adelade.ranking());
+        System.out.println(melbourne.getName()+": "+melbourne.ranking());
+        System.out.println(ferment.getName()+": "+ferment.ranking());
+        System.out.println(hawthon.getName()+": "+hawthon.ranking());
+
+        System.out.println(adelade.compareTo(melbourne));
+        System.out.println(adelade.compareTo(hawthon));
+
     }
 }
